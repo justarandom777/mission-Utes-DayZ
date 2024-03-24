@@ -1,0 +1,215 @@
+{
+    "m_Version": 7,
+    "SpawnLocations": [
+        {
+            "Name": "Strelka",
+            "Positions": [
+                [
+                    4410.255859,
+                    25.969229,
+                    3180.107422
+                ],
+                [
+                    4393.984375,
+                    26.105345,
+                    3160.114990
+                ],
+                [
+                    4349.574707,
+                    26.731472,
+                    3153.051758
+                ],
+                [
+                    4317.942871,
+                    27.010712,
+                    3230.177490
+                ],
+                [
+                    4337.850586,
+                    28.820030,
+                    3279.692139
+                ],
+                [
+                    4361.813477,
+                    26.862402,
+                    3272.854004
+                ],
+                [
+                    4391.168457,
+                    27.012373,
+                    3241.720459
+                ],
+                [
+                    4400.003906,
+                    27.012432,
+                    3230.007813
+                ]
+            ],
+            "UseCooldown": 0
+        },
+        {
+            "Name": "Airfield",
+            "Positions": [
+                [
+                    3689.579346,
+                    18.904202,
+                    3499.244629
+                ],
+                [
+                    3648.797852,
+                    19.234327,
+                    3485.839600
+                ],
+                [
+                    3545.066406,
+                    19.012449,
+                    3521.750488
+                ],
+                [
+                    3465.698975,
+                    18.912455,
+                    3546.848145
+                ],
+                [
+                    3445.730469,
+                    19.080723,
+                    3687.692139
+                ],
+                [
+                    3518.692871,
+                    18.954308,
+                    3711.528809
+                ],
+                [
+                    3561.158936,
+                    18.707209,
+                    3725.323242
+                ],
+                [
+                    3589.376465,
+                    18.560833,
+                    3720.029297
+                ],
+                [
+                    3631.507324,
+                    19.126781,
+                    3657.093506
+                ]
+
+            ],
+            "UseCooldown": 0
+        }
+    ],
+    "StartingClothing": {
+        "EnableCustomClothing": 1,
+        "SetRandomHealth": 1,
+        "Headgear": [],
+        "Glasses": [],
+        "Masks": [],
+        "Tops": [
+            "TShirt_Green",
+            "TShirt_Blue",
+            "TShirt_Black",
+            "TShirt_Beige",
+            "TShirt_Red",
+            "TShirt_OrangeWhiteStripes",
+            "TShirt_White",
+            "TShirt_Red",
+            "TShirt_Grey",
+            "TShirt_RedBlackStripes"
+        ],
+        "Vests": [],
+        "Gloves": [],
+        "Pants": [
+            "CanvasPants_Beige",
+            "CanvasPants_Blue",
+            "CanvasPants_Grey",
+            "CanvasPants_Red",
+            "CanvasPants_Violet",
+            "CanvasPantsMidi_Beige",
+            "CanvasPantsMidi_Blue",
+            "CanvasPantsMidi_Grey",
+            "CanvasPantsMidi_Red",
+            "CanvasPantsMidi_Violet"
+        ],
+        "Belts": [],
+        "Shoes": [
+            "AthleticShoes_Blue",
+            "AthleticShoes_Grey",
+            "AthleticShoes_Brown",
+            "AthleticShoes_Green",
+            "AthleticShoes_Black"
+        ],
+        "Armbands": [],
+        "Backpacks": [
+            "TaloonBag_Blue",
+            "TaloonBag_Green",
+            "TaloonBag_Orange",
+            "TaloonBag_Violet"
+        ]
+    },
+    "EnableSpawnSelection": 1,
+    "SpawnOnTerritory": 0,
+    "StartingGear": {
+        "EnableStartingGear": 1,
+        "ApplyEnergySources": 1,
+        "SetRandomHealth": 1,
+        "UpperGear": [
+            {
+                "ClassName": "Rag",
+                "Quantity": 4,
+                "Attachments": []
+            },
+            {
+                "ClassName": "Apple",
+                "Quantity": -1,
+                "Attachments": []
+            },
+            {
+                "ClassName": "RoadFlare",
+                "Quantity": 2,
+                "Attachments": []
+            }
+        ],
+        "PantsGear": [
+            {
+                "ClassName": "Heatpack",
+                "Quantity": -1,
+                "Attachments": []
+            },
+            {
+                "ClassName": "dzn_tool_watch",
+                "Quantity": -1,
+                "Attachments": []
+            }
+        ],
+        "BackpackGear": [],
+        "VestGear": [],
+        "PrimaryWeapon": {},
+        "SecondaryWeapon": {}
+    },
+    "UseLoadouts": 0,
+    "MaleLoadouts": [
+        {
+            "Loadout": "PlayerSurvivorLoadout",
+            "Chance": 1.0
+        }
+    ],
+    "FemaleLoadouts": [
+        {
+            "Loadout": "PlayerSurvivorLoadout",
+            "Chance": 1.0
+        }
+    ],
+    "SpawnHealthValue": 100.0,
+    "SpawnEnergyValue": 1100.0,
+    "SpawnWaterValue": 900.0,
+    "EnableRespawnCooldowns": 1,
+    "RespawnCooldown": 120,
+    "TerritoryRespawnCooldown": 240,
+    "PunishMultispawn": 1,
+    "PunishCooldown": 120,
+    "PunishTimeframe": 300,
+    "CreateDeathMarker": 1,
+    "BackgroundImagePath": "DayZExpansion/SpawnSelection/GUI/textures/wood_background.edds"
+}
